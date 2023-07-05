@@ -15,16 +15,16 @@ The project will involve the following tasks:
 
 The ultimate goal of the project is to gain insights from the data sets and communicate these insights to stakeholders using appropriate visualizations and metrics to make informed decisions based on the business questions asked."
 
-## CONCLUSIONS
-##### EDA
+## Conclusions
+### EDA
 * The histograms show an exponential decline in the number of orders for the respected products and very high skewness with was normalized with Logarithmic transformation.
 
 * The strongest positive correlation between Detergents paper and Grocery products which indicates that consumers would often spend money on these two types of products and any marketing or sales strategy centres around these 2 products will be profitable for the business. 
 
-##### K-MEANS/DENDOGRAM 
+### K-MEANS/DENDOGRAM 
 * Optimal number of clusters was determined using the "Elbow Curve" and the same number was used in Agglomerative Clustering
 
-##### PCA
+### PCA
 * From the above output, we can observe that the principal component 1 holds about 45% of the information while the principal component 2 holds about 28% , 3 holds only about 10% and 4 holds 9% of the information.
 
 * Top 4 features was determined using Random Forest which are 'Frozen', 'Fresh', 'Milk', 'Grocery' in order of importance.
